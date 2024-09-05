@@ -26,7 +26,7 @@ jobs:
       with:
     # Username used to log against the Docker registry
         username: luuuuuh
-    # Password or personal access token used to log against the Docker registry
+    # Password or personal access token used to log against the Docker registry.
         password: ${{ secrets.PASSWORD_DOCKER_HUB }}
         
         
